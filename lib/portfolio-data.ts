@@ -1,7 +1,7 @@
 export const profileData = {
   name: "Abhay Krishnan K",
   title: "Frontend Engineer",
-  avatar: "/professional-developer-avatar.png",
+  avatar: "/profile/professional-developer-avatar.png",
   email: "abhaykrishnan210@gmail.com",
   phone: "+91 9188032272",
   location: "Payyanur, Kannur, Kerala",
@@ -110,14 +110,32 @@ export const resumeData = {
         "Developed scalable and responsive UIs using React.js, Next.js, Tailwind CSS. Contributed to hotel booking and car rental platforms. Integrated REST APIs and managed state using Zustand and React Query.",
     },
   ],
-  skills: [
-    { name: "React.js & Next.js", level: 95 },
-    { name: "TypeScript", level: 90 },
-    { name: "Tailwind CSS & UI Libraries", level: 90 },
-    { name: "REST APIs & State Management", level: 88 },
-    { name: "Performance Optimization", level: 85 },
-    { name: "Node.js & Backend", level: 80 },
-  ],
+  skills: {
+    frontend: [
+      { name: "React.js", level: 95 },
+      { name: "Next.js", level: 95 },
+      { name: "TypeScript", level: 90 },
+      { name: "Tailwind CSS", level: 90 },
+      { name: "Framer Motion", level: 85 },
+      { name: "Redux / Zustand", level: 88 },
+    ],
+    backend: [
+      { name: "Node.js", level: 80 },
+      { name: "Express.js", level: 82 },
+      { name: "PostgreSQL", level: 75 },
+      { name: "MongoDB", level: 78 },
+      { name: "REST APIs", level: 90 },
+      { name: "Firebase", level: 80 },
+    ],
+    tools: [
+      { name: "Git & GitHub", level: 90 },
+      // { name: "Docker", level: 70 },
+      { name: "AWS", level: 75 },
+      { name: "CI/CD (GitHub Actions)", level: 80 },
+      { name: "Vercel / Netlify", level: 85 },
+      { name: "Postman", level: 90 },
+    ],
+  },
 };
 
 export const portfolioData = {
@@ -126,7 +144,11 @@ export const portfolioData = {
     {
       title: "CareMall Online — E-commerce Platform",
       category: "e-commerce",
-      images: ["/caremall.png", "/caremall.png"],
+      images: [
+        "/portfolio/caremall.png",
+        "/portfolio/caremall1.png",
+        "/portfolio/caremall2.png",
+      ],
       description:
         "Complete customer-facing e-commerce platform with admin dashboard and warehouse management",
       tech: ["React.js", "TypeScript", "Vite", "Node.js", "AWS"],
@@ -136,7 +158,11 @@ export const portfolioData = {
     {
       title: "Garmin Bahrain — Official Distributor Website",
       category: "web development",
-      images: ["/garmin.png", "/garmin.png"],
+      images: [
+        "/portfolio/garmin.png",
+        "/portfolio/garmin1.png",
+        "/portfolio/garmin2.png",
+      ],
       description:
         "Responsive distributor website with optimized performance and SEO best practices",
       tech: ["Next.js", "Tailwind CSS", "CDN"],
@@ -146,7 +172,7 @@ export const portfolioData = {
     {
       title: "Car Rental Platform",
       category: "applications",
-      images: ["/hyve.png", "/hyve.png"],
+      images: ["/portfolio/hyve.png", "/portfolio/hyve1.png"],
       description:
         "Dynamic booking interface with availability calendar and payment integration",
       tech: ["Next.js", "TypeScript", "Tailwind CSS", "Zustand"],
@@ -156,7 +182,7 @@ export const portfolioData = {
     // {
     //   title: "Namma_Mavu-Admin-store-App",
     //   category: "web development",
-    //   images: ["/namma_mavu.png", "/namma_mavu.png"],
+    //   images: ["/portfolio/namma_mavu1.png", "/portfolio/namma_mavu2.png"],
     //   description:
     //     "High-conversion landing page for a B2B SaaS product with modern animations.",
     //   tech: ["Framer Motion", "Tailwind CSS", "Next.js"],

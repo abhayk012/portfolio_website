@@ -119,7 +119,7 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
           <Linkedin className="w-5 h-5" />
         </a>
         <a
-          href="/Abhay_resume(Frontend_Engineer).pdf"
+          href="/profile/Abhay_resume(Frontend_Engineer).pdf"
           target="_blank"
           className="w-10 h-10 rounded-lg bg-secondary hover:bg-accent hover:text-accent-foreground transition-colors flex items-center justify-center"
           aria-label="Resume"

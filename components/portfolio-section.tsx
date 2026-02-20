@@ -79,7 +79,7 @@ export function PortfolioSection({
         </div>
 
         {/* Filter Buttons */}
-        <div className="flex flex-wrap gap-2 md:gap-3">
+        {/* <div className="flex flex-wrap gap-2 md:gap-3">
           {data.categories.map((category) => (
             <button
               key={category}
@@ -93,7 +93,7 @@ export function PortfolioSection({
               {category}
             </button>
           ))}
-        </div>
+        </div> */}
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
