@@ -8,7 +8,7 @@ export const profileData = {
   birthday: "14/02/2003",
   social: {
     github: "https://github.com/abhayk012",
-    linkedin: "https://linkedin.com/in/abhay-krishnan-k-b7139926b",
+    linkedin: "https://www.linkedin.com/in/abhay-krishnan-k/",
   },
 };
 
@@ -169,16 +169,16 @@ export const portfolioData = {
       liveUrl: "https://www.garmin.bh",
       githubUrl: "https://github.com/abhayk012",
     },
-    {
-      title: "Car Rental Platform",
-      category: "applications",
-      images: ["/portfolio/hyve.png", "/portfolio/hyve1.png"],
-      description:
-        "Dynamic booking interface with availability calendar and payment integration",
-      tech: ["Next.js", "TypeScript", "Tailwind CSS", "Zustand"],
-      liveUrl: "https://hyvecarrental.com",
-      githubUrl: "https://github.com/abhayk012",
-    },
+    // {
+    //   title: "Car Rental Platform",
+    //   category: "applications",
+    //   images: ["/portfolio/hyve.png", "/portfolio/hyve1.png"],
+    //   description:
+    //     "Dynamic booking interface with availability calendar and payment integration",
+    //   tech: ["Next.js", "TypeScript", "Tailwind CSS", "Zustand"],
+    //   liveUrl: "https://hyvecarrental.com",
+    //   githubUrl: "https://github.com/abhayk012",
+    // },
     // {
     //   title: "Namma_Mavu-Admin-store-App",
     //   category: "web development",
@@ -259,6 +259,46 @@ export const blogData = {
         "Set up automated testing and deployment pipelines using GitHub Actions and AWS.",
       tags: ["GitHub Actions", "CI/CD", "DevOps", "AWS"],
       slug: "cicd-github-actions-aws",
+    },
+    {
+      title: "Maximizing Frontend Performance in Next.js 15",
+      category: "Performance",
+      date: "Mar 10, 2026",
+      readTime: "12 min",
+      image: "/performance-optimization.jpg",
+      excerpt: "Deep dive into partial pre-rendering, advanced caching strategies, and optimizing Core Web Vitals for modern web apps.",
+      tags: ["Next.js", "Performance", "Web Vitals", "Optimization"],
+      slug: "nextjs-performance-optimization-guide",
+    },
+    {
+      title: "Mastering React Server Components for Seamless UX",
+      category: "Development",
+      date: "Mar 05, 2026",
+      readTime: "15 min",
+      image: "/react-server-components.png",
+      excerpt: "Understanding the shift from client-side to server-side rendering and how to leverage RSC for lightning-fast applications.",
+      tags: ["React", "RSC", "Server Components", "Frontend"],
+      slug: "mastering-react-server-components",
+    },
+    {
+      title: "Secure REST API Integration: Best Practices 2026",
+      category: "Security",
+      date: "Feb 25, 2026",
+      readTime: "10 min",
+      image: "/api-security.jpg",
+      excerpt: "Expert tips on implementing secure authentication, data validation with Zod, and handling token-based authorization in React apps.",
+      tags: ["Security", "API", "Zod", "Authentication"],
+      slug: "secure-api-integration-best-practices",
+    },
+    {
+      title: "Building a High-Conversion Developer Portfolio",
+      category: "Career",
+      date: "Feb 10, 2026",
+      readTime: "8 min",
+      image: "/developer-portfolio.png",
+      excerpt: "How to showcase your technical skills and projects effectively to land high-value contracts and job offers.",
+      tags: ["Portfolio", "Frontend", "Career", "SEO"],
+      slug: "building-high-conversion-dev-portfolio",
     },
   ],
 };
