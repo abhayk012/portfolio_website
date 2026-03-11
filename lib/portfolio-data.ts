@@ -1,7 +1,7 @@
 export const profileData = {
   name: "Abhay Krishnan K",
   title: "Frontend Engineer",
-  avatar: "/profile/professional-developer-avatar.png",
+  avatar: "/profile/professional-developer-avatar.webp",
   email: "abhaykrishnan210@gmail.com",
   phone: "+91 9188032272",
   location: "Payyanur, Kannur, Kerala",

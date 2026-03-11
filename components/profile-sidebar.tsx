@@ -20,7 +20,8 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
               alt={data.name}
               width={500}
               height={500}
-              quality={1080}
+              // quality={80}
+              priority
               className="w-full h-full object-cover"
             />
           </div>
